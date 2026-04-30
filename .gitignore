@@ -1,0 +1,36 @@
+### --- IDE NetBeans ---
+nbproject/private/
+nbproject/project.notes
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### --- Système (macOS) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+### --- PHP / Composer ---
+vendor/
+composer.phar
+*.log
+.phpunit.result.cache
+
+### --- Sécurité (IMPORTANT) ---
+# Fichiers contenant des mots de passe, clés d'API ou config locale
+.env
+.env.local
+config.local.php
+
+### --- JS / Node (si vous utilisez npm un jour) ---
+node_modules/
+npm-debug.log*
+
+### --- Divers ---
+*.bak
+*.tmp
+*.swp
